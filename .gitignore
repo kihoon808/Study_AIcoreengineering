@@ -1,0 +1,41 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Data and Raw files
+data/
+*.zip
+*.csv
+
+# Model Artifacts and Outputs (>100MB binary files 포함)
+outputs/
+results/
+*.joblib
+*.pkl
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and Sensitive files
+.env
+.env.*
+*.secret
+*.key
+*.pem
+
+# Editor and IDE
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
